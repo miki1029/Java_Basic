@@ -1,4 +1,4 @@
-package chap25.swing.event.base.listener;
+package chap25.swing.event.mouse.base;
 
 import java.awt.event.*;
 import javax.swing.*;

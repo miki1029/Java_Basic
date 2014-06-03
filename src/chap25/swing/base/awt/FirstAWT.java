@@ -3,6 +3,7 @@ package chap25.swing.base.awt;
 import java.awt.*;
 import java.awt.event.*;
 
+// awt: 운영체제에 종속적인 GUI 패키지
 public class FirstAWT {
 	public static void main(String[] args) {
 		Frame frm = new Frame("First AWT");

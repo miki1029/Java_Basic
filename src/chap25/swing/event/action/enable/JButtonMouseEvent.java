@@ -1,4 +1,4 @@
-package chap25.swing.event.base.enable;
+package chap25.swing.event.action.enable;
 
 import java.awt.*;
 import javax.swing.*;
@@ -18,6 +18,7 @@ public class JButtonMouseEvent {
 		
 		frm.add(btn1);
 		frm.add(btn2);
+		// false임에도 불구 마우스 이벤트 발생 -> 액션 이벤트 기반으로 처리해야 함
 		btn1.setEnabled(false);
 		
 		frm.setVisible(true);

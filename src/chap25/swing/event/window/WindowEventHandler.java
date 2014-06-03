@@ -20,7 +20,7 @@ public class WindowEventHandler implements WindowListener {
 	public void windowClosing(WindowEvent e) {
 		// TODO Auto-generated method stub
 		JFrame frm = (JFrame)e.getWindow();
-		frm.dispose();
+		frm.dispose(); // 프로그램 완전 종료. windowClosed가 호출됨.(완전 종료되면서)
 		System.out.println(frameInfo + " windowClosing");
 	}
 

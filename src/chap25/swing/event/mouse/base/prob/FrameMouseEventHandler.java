@@ -1,8 +1,9 @@
-package chap25.swing.event.base.listener.prob;
+package chap25.swing.event.mouse.base.prob;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
+// MyJFrame에 포함시킴(필요없는 클래스)
 public class FrameMouseEventHandler implements MouseListener {
 
 	@Override

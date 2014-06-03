@@ -10,12 +10,12 @@ public class GridLayoutManager {
 		frm.setLayout(new GridLayout(3, 2, 2, 5));
 		//frm.setLayout(new GridLayout(3, 2));
 
-		frm.add(new Button("One"));
-		frm.add(new Button("Two"));
-		frm.add(new Button("Three"));
-		frm.add(new Button("Four"));
-		frm.add(new Button("Five"));
-		frm.add(new Button("Six"));
+		frm.add(new JButton("One"));
+		frm.add(new JButton("Two"));
+		frm.add(new JButton("Three"));
+		frm.add(new JButton("Four"));
+		frm.add(new JButton("Five"));
+		frm.add(new JButton("Six"));
 		
 		frm.setVisible(true);
 	}

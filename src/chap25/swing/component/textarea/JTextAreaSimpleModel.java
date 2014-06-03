@@ -13,8 +13,8 @@ public class JTextAreaSimpleModel {
 		textArea.append("원하는 내용을 입력하세요. \n");
 		textArea.setCaretPosition(textArea.getText().length());
 		
-		textArea.setLineWrap(true);			// 바꿔보기
-		textArea.setWrapStyleWord(false);	// 바꿔보기
+		textArea.setLineWrap(true);			// 자동 줄바꿈 여부
+		textArea.setWrapStyleWord(true);	// 단어 단위 줄바꿈 여부
 		
 		JButton btn = new JButton("Clear");
 		btn.addActionListener(new ButtonTextHandler(textArea));

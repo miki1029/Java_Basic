@@ -13,12 +13,12 @@ public class SetDefaultCloseOperation {
 		frmOne.add(new JButton("Button One"));
 		frmTwo.add(new JButton("Button Two"));
 		
-		/*
-		frmOne.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-		frmTwo.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-		*/
-		frmOne.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frmTwo.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+		
+//		frmOne.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+//		frmTwo.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+		
+		frmOne.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // frm.dispose() 효과
+		frmTwo.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE); // System.exit(0) 효과
 		
 		frmOne.setVisible(true);
 		frmTwo.setVisible(true);

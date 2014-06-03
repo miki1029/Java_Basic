@@ -14,13 +14,15 @@ public class JTextAreaScrollAdded {
 		textArea.append("원하는 내용을 입력하세요. \n");
 		textArea.setCaretPosition(textArea.getText().length());
 		
-	//	textArea.setLineWrap(true);
+		textArea.setLineWrap(true);
 		textArea.setWrapStyleWord(true);
 		
 		JButton btn = new JButton("Clear");
 		btn.addActionListener(new ButtonTextHandler(textArea));
 		
-		JScrollPane simpleScroll = new JScrollPane(textArea, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		JScrollPane simpleScroll = new JScrollPane(textArea,
+				ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,
+				ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 		frm.add(simpleScroll);
 		frm.add(btn);
 		

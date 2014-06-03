@@ -1,4 +1,4 @@
-package chap25.swing.event.base.listener.prob;
+package chap25.swing.event.mouse.base.prob;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -38,6 +38,7 @@ public class MyJFrame extends JFrame implements MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
+		System.out.println("JFrame상에서 마우스 버튼 눌렸다 풀림");
 
 	}
 
@@ -50,7 +51,6 @@ public class MyJFrame extends JFrame implements MouseListener {
 	@Override
 	public void mouseReleased(MouseEvent e) {
 		// TODO Auto-generated method stub
-		System.out.println("JFrame상에서 마우스 버튼 눌렸다 풀림");
 	}
 
 	@Override

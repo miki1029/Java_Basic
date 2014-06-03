@@ -1,4 +1,4 @@
-package chap25.swing.event.mouse;
+package chap25.swing.event.mouse.motion;
 
 import javax.swing.*;
 

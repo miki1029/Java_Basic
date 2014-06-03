@@ -3,6 +3,7 @@ package chap25.swing.base;
 import java.awt.*;
 import javax.swing.*;
 
+// swing: 자바로만 구현된 GUI 패키지
 public class FirstSwing {
 	public static void main(String[] args) {
 		JFrame frm = new JFrame("First Swing");
